@@ -109,7 +109,7 @@ return (
     <div className={classes.wrapper}>
       <div className={classes.left}>
         <Link to='/'>
-          WebDevMania
+          Darpan's Social Media
         </Link>
       </div>
       <div className={classes.center}>

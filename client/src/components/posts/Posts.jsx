@@ -25,12 +25,11 @@ const Posts = () => {
     }
     fetchPosts()
   }, [])
-
   return (
     <div className={classes.container}>
-      {posts?.map((post) => (
-        <Post key={post._id} post={post} />
-      ))}
+      {/* {posts?.map((post) => (
+        <Post key={post.id} post={post} />
+      ))} */}
     </div>
   )
 }
